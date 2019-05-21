@@ -49,6 +49,8 @@ public class CardTrick {
       Card luckyCard = new Card();
       luckyCard.setValue(cardValue);
       luckyCard.setSuit(suit);
+      System.out.println(luckyCard.getValue());
+      System.out.println(luckyCard.getSuit());
     }
     
 }
